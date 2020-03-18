@@ -9,7 +9,7 @@ import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <Router>
+    <Router   className="container">
       <div>
         <Navbar />
         <Wrapper>
