@@ -1,3 +1,32 @@
+# Pupster App
+
+## Brief
+
+* This app contains 3 routes:
+
+    1. `/about`: A static welcome screen for visitors to the application.
+
+    2. `/discover`: This page displays a photo of a random dog retrieved from the [Dog Ceo API](https://dog.ceo/dog-api/). This page contains 2 clickable buttons: one for passing or "thumbs-downing" a dog, and one for picking or "thumbs-upping" a dog. When either button is clicked, a new dog image is loaded from the API. If you "thumbs up" a dog, there is a 1 in 5 chance that the dog likes you too, and the friends count goes up by 1.
+
+    3. `/search`: This page allows you to search the [Dog Ceo API](https://dog.ceo/dog-api/) for all dogs by breed. After a search is made, a list of all of the results appears underneath.
+
+* The Pupster app has implemented each of these three pages and their basic functionality, 
+
+* This Pupster app displays a navigation bar that is present on every route.
+
+
+
+* Utilized documentation of the followings: 
+
+  * [Axios](https://github.com/mzabriskie/axios)
+  
+  * [React Router](https://reacttraining.com/react-router/web/guides/philosophy)
+
+  * [React](https://facebook.github.io/react/docs/hello-world.html)
+
+  * [Dog Ceo](https://dog.ceo/dog-api/)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
